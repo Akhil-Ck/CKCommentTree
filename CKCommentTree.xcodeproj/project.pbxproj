@@ -14,6 +14,13 @@
 		6F33B27F2042B1A100F9F8B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F33B27D2042B1A100F9F8B9 /* LaunchScreen.storyboard */; };
 		6F33B28A2042B1A100F9F8B9 /* CKCommentTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F33B2892042B1A100F9F8B9 /* CKCommentTreeTests.swift */; };
 		6F33B2952042B1A100F9F8B9 /* CKCommentTreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F33B2942042B1A100F9F8B9 /* CKCommentTreeUITests.swift */; };
+		6F33B2A92042B96C00F9F8B9 /* UMatchCommentVC.swift in Resources */ = {isa = PBXBuildFile; fileRef = 6F33B2A72042B96C00F9F8B9 /* UMatchCommentVC.swift */; };
+		6F33B2AA2042B96C00F9F8B9 /* UMatchCommentVCExtension.swift in Resources */ = {isa = PBXBuildFile; fileRef = 6F33B2A82042B96C00F9F8B9 /* UMatchCommentVCExtension.swift */; };
+		6F33B2B02042B98600F9F8B9 /* UInputCommentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F33B2AB2042B98600F9F8B9 /* UInputCommentView.xib */; };
+		6F33B2B12042B98600F9F8B9 /* UCommentViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F33B2AC2042B98600F9F8B9 /* UCommentViewCell.xib */; };
+		6F33B2B22042B98600F9F8B9 /* UInputCommentView.swift in Resources */ = {isa = PBXBuildFile; fileRef = 6F33B2AD2042B98600F9F8B9 /* UInputCommentView.swift */; };
+		6F33B2B32042B98600F9F8B9 /* UCommentPopUp.swift in Resources */ = {isa = PBXBuildFile; fileRef = 6F33B2AE2042B98600F9F8B9 /* UCommentPopUp.swift */; };
+		6F33B2B42042B98600F9F8B9 /* UCommentPopUp.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F33B2AF2042B98600F9F8B9 /* UCommentPopUp.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		6F33B2902042B1A100F9F8B9 /* CKCommentTreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CKCommentTreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F33B2942042B1A100F9F8B9 /* CKCommentTreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKCommentTreeUITests.swift; sourceTree = "<group>"; };
 		6F33B2962042B1A100F9F8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F33B2A72042B96C00F9F8B9 /* UMatchCommentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMatchCommentVC.swift; sourceTree = "<group>"; };
+		6F33B2A82042B96C00F9F8B9 /* UMatchCommentVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMatchCommentVCExtension.swift; sourceTree = "<group>"; };
+		6F33B2AB2042B98600F9F8B9 /* UInputCommentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UInputCommentView.xib; sourceTree = "<group>"; };
+		6F33B2AC2042B98600F9F8B9 /* UCommentViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UCommentViewCell.xib; sourceTree = "<group>"; };
+		6F33B2AD2042B98600F9F8B9 /* UInputCommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UInputCommentView.swift; sourceTree = "<group>"; };
+		6F33B2AE2042B98600F9F8B9 /* UCommentPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCommentPopUp.swift; sourceTree = "<group>"; };
+		6F33B2AF2042B98600F9F8B9 /* UCommentPopUp.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UCommentPopUp.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +112,11 @@
 			isa = PBXGroup;
 			children = (
 				6F33B2742042B1A100F9F8B9 /* AppDelegate.swift */,
+				6F33B2A22042B1C400F9F8B9 /* Model */,
+				6F33B2A32042B30700F9F8B9 /* Controller */,
+				6F33B2A42042B31B00F9F8B9 /* View */,
 				6F33B2762042B1A100F9F8B9 /* ViewController.swift */,
-				6F33B2782042B1A100F9F8B9 /* Main.storyboard */,
 				6F33B27B2042B1A100F9F8B9 /* Assets.xcassets */,
-				6F33B27D2042B1A100F9F8B9 /* LaunchScreen.storyboard */,
 				6F33B2802042B1A100F9F8B9 /* Info.plist */,
 			);
 			path = CKCommentTree;
@@ -123,6 +138,52 @@
 				6F33B2962042B1A100F9F8B9 /* Info.plist */,
 			);
 			path = CKCommentTreeUITests;
+			sourceTree = "<group>";
+		};
+		6F33B2A22042B1C400F9F8B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F33B2A32042B30700F9F8B9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6F33B2A72042B96C00F9F8B9 /* UMatchCommentVC.swift */,
+				6F33B2A82042B96C00F9F8B9 /* UMatchCommentVCExtension.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6F33B2A42042B31B00F9F8B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6F33B2A62042B57D00F9F8B9 /* Xibs */,
+				6F33B2A52042B32D00F9F8B9 /* Storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6F33B2A52042B32D00F9F8B9 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				6F33B2782042B1A100F9F8B9 /* Main.storyboard */,
+				6F33B27D2042B1A100F9F8B9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		6F33B2A62042B57D00F9F8B9 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				6F33B2AE2042B98600F9F8B9 /* UCommentPopUp.swift */,
+				6F33B2AF2042B98600F9F8B9 /* UCommentPopUp.xib */,
+				6F33B2AC2042B98600F9F8B9 /* UCommentViewCell.xib */,
+				6F33B2AD2042B98600F9F8B9 /* UInputCommentView.swift */,
+				6F33B2AB2042B98600F9F8B9 /* UInputCommentView.xib */,
+			);
+			path = Xibs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +293,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F33B2B02042B98600F9F8B9 /* UInputCommentView.xib in Resources */,
+				6F33B2B12042B98600F9F8B9 /* UCommentViewCell.xib in Resources */,
+				6F33B2B22042B98600F9F8B9 /* UInputCommentView.swift in Resources */,
+				6F33B2B32042B98600F9F8B9 /* UCommentPopUp.swift in Resources */,
+				6F33B2B42042B98600F9F8B9 /* UCommentPopUp.xib in Resources */,
+				6F33B2A92042B96C00F9F8B9 /* UMatchCommentVC.swift in Resources */,
+				6F33B2AA2042B96C00F9F8B9 /* UMatchCommentVCExtension.swift in Resources */,
 				6F33B27F2042B1A100F9F8B9 /* LaunchScreen.storyboard in Resources */,
 				6F33B27C2042B1A100F9F8B9 /* Assets.xcassets in Resources */,
 				6F33B27A2042B1A100F9F8B9 /* Main.storyboard in Resources */,
